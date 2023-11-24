@@ -1,0 +1,118 @@
+.carousel-item{
+    filter: brightness(0.5);
+}
+.carousel-indicators{
+    margin-bottom: 50px;
+}
+
+div.container{
+    height: 800px;
+}
+
+/* INICIO MOBILE */
+
+@media (max-width: 576px){
+
+  
+
+    .navbar{
+        width: 100vw;
+    }
+
+    main{
+        margin-top: 60px;
+    }
+
+    .carousel-item{
+        height: 500px;
+        
+    }
+    div.container{
+        height: 300px !important;
+        justify-content: flex-start !important;
+        flex-direction: column;
+        font-size: x-small !important;
+        
+    }
+
+    .carousel-item{
+        height: 250px;
+    }
+
+    .carousel-item img{
+        height: 250px;
+    }
+
+    h5{
+        text-align: start;
+    }
+
+   p{
+    text-align:start;
+    margin-bottom: 0px !important;
+   }
+
+   .btn{
+    
+    height: 50px;
+    font-size: 9px !important;
+   }
+
+   .carousel-control-prev{
+    height: 150px;
+   }
+
+   .carousel-control-next{
+    height: 150px;
+   }
+
+   .mobile{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+   }
+
+ 
+    div.col-sm-4{
+        margin: 10px !important;
+    }
+
+    
+    
+
+    .card{
+        
+        width: 100vw;
+    
+    }
+
+    .form{
+        margin-bottom: 100px !important;
+    }
+}
+
+/* FIN MOBILE */
+
+@media (max-width: 1024px){
+    .container{
+        height: 400px !important;
+        margin-top: 1px !important;
+        text-align: end;
+        font-size: small;
+    }
+    #oradores{
+        width: 100vw;
+        margin: 0px !important;
+    }
+
+    .col-sm-4{
+        padding: 0px 0px 20px !important;
+        margin-bottom: 5px;
+    }
+
+    .form{
+        padding-bottom: 100px;
+    }
+}

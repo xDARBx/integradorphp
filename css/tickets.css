@@ -1,0 +1,96 @@
+main { 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.card{
+    margin: 10px;
+}
+
+#correo{
+    width: 430px;
+}
+
+#cantidad, #categoria{
+    width:210px ;
+}
+
+.titulos{
+    text-align: left;
+    width: 210px;
+}
+.alert{
+    width: 430px;
+    text-align: left;
+}
+
+#borrar, #resumen{
+    width: 210px;
+    background-color: rgb(97, 160, 2);
+}
+
+
+
+@media (min-width: 765px) {
+  
+main { 
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    margin: 5px;
+}
+
+
+
+.card:hover{
+    border-radius:1%;
+    box-shadow: 0px 0px 15px 15px #88c9a3;
+    transform: rotate(360deg);
+    
+}
+
+#inputAddress{
+    width: 430px;
+}
+
+#inputCantidad, #inputCategoria{
+    width:210px ;
+}
+
+.titulos{
+    text-align: left;
+    width: 210px;
+}
+.alert{
+    width: 430px;
+    text-align: left;
+}
+
+#borrar, #resumen{
+    width: 210px;
+    background-color: rgb(97, 160, 2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
